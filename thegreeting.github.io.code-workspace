@@ -1,0 +1,13 @@
+// cSpell:disable
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "🌐 thegreeting.github.io"
+		},
+		{
+			"path": "../.vscode/.devcontainer",
+			"name": "⚪️ .devcontainer"
+		},
+	],
+}

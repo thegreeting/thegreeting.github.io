@@ -1,0 +1,5 @@
+[[main]]
+pre = 'about'
+name = 'About'
+url = 'https://about.greeting.network'
+weight = 10
