@@ -1,0 +1,62 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: dark
+  color: indigo
+
+# SEO
+marketing:
+  seo:
+    site_type: Project
+    org_name: The Greeting
+    description: | 
+      A decentralized protocol that leverages blockchain technology to revolutionize 
+      the way we connect and communicate in the digital age. By enabling secure, seamless, 
+      and meaningful interactions, we aim to create a stress-free communication environment 
+      and foster genuine human connections.
+    twitter: 'thegreeting'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    align: "center"
+    fixed_to_top: false
+    logo:
+      text: "The Greeting"
+      # Logo filename in `assets/media/` folder
+      filename: "thegreeting_logo.png"
+    button:
+      enable: true
+      text: "About"
+      url: "https://about.greeting.network/"
+    show_search: false
+    show_theme_chooser: false
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} The Greeting'
+    license:
+      enable: false
+
+i_am_a_sponsor: true
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'

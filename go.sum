@@ -1,2 +1,8 @@
-github.com/nunocoracao/blowfish/v2 v2.65.0 h1:dILj1VfJvK7e40TYhi4KWXoiQFWl0h+PsAUuGtXJ3+g=
-github.com/nunocoracao/blowfish/v2 v2.65.0/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.2 h1:MUy48hWGsmL9bo3KpEKXIcNE8ajo6RuMmR7PnICLRDo=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.2/go.mod h1:0YQtVvRLCzZOpPmbVNk7WDx8t19/QfRTFO+pwyqQNk8=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240420215224-137ebf6fdc28 h1:57pewWWZqVturoMuYIRHlKc+ro8Y62+lUeKsswCcF2s=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240420215224-137ebf6fdc28/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240420215224-137ebf6fdc28 h1:IE4gLFn1o4DKWURI9WWSfAsfeQea6F9/18YBcfjjZDA=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240420215224-137ebf6fdc28/go.mod h1:+qBbqXbKT7M2nOeHQa5OrRXwQKpEx1RXpMGirHbT7HU=
+github.com/HugoBlox/theme-landing-page v0.0.0-20240420215250-531439aa3ffc h1:IPAa/7UXa0uNAlQIkv/7tPfnd/68mfZ40X3Vdyiytzw=
+github.com/HugoBlox/theme-landing-page v0.0.0-20240420215250-531439aa3ffc/go.mod h1:YF+OX5p26cCbYQsJzb2jX7q5QlJufYPrc9QcHQdnNhQ=
