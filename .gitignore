@@ -14,3 +14,6 @@ hugo.linux
 
 # User
 node_modules
+
+# AI Agent
+.aider*
