@@ -1,13 +1,19 @@
 ---
-# ref: https://github.com/HugoBlox/theme-landing-page/blob/531439aa3ffcb8caebcf88b7715f8a216e117467/content/_index.md?plain=1
-# ref for icons: https://icones.js.org/collection/heroicons
-title: '利用規約'
-date: 2024-07-12
-type: article
-
-design:
-  # Default section spacing
-  spacing: "6rem"
+title: "利用規約"
+description: "The Greeting Meetupの利用規約"
+date: 2023-07-12
+draft: false
 ---
 
-利用規約
+# 利用規約
+
+ここに利用規約の内容を記載します。以下は例です：
+
+1. サービスの利用
+2. 禁止事項
+3. 免責事項
+4. 個人情報の取り扱い
+5. 規約の変更
+6. 準拠法と管轄裁判所
+
+詳細な内容は後ほど追加します。
