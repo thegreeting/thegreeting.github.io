@@ -1,0 +1,6 @@
+  - name: Terms
+    url: '/meetup/terms'
+    weight: 40
+  - name: Privacy
+    url: '/meetup/privacy'
+    weight: 50
