@@ -60,6 +60,7 @@ permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
+  meetup: '/meetup/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects]
