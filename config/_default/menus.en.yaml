@@ -1,6 +1,0 @@
-main:
-  - name: Support
-    url: https://example.com
-    weight: 60
-    params:
-      redirect: true
