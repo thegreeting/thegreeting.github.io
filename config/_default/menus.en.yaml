@@ -1,13 +1,13 @@
-main:
-  - name: Home
-    url: /meetup/
-    weight: 10
-  - name: Terms of Use
-    url: /meetup/terms/
-    weight: 20
-  - name: Privacy Policy
-    url: /meetup/privacy/
-    weight: 30
-  - name: Support
-    url: /meetup/support/
-    weight: 40
+# main:
+#   - name: for Meetup Home
+#     url: /meetup/
+#     weight: 10
+#   - name: for Meetup Terms of Use
+#     url: /meetup/terms/
+#     weight: 20
+#   - name: for Meetup Privacy Policy
+#     url: /meetup/privacy/
+#     weight: 30
+#   - name: for Meetup Support
+#     url: /meetup/support/
+#     weight: 40
