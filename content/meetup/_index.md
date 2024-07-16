@@ -1,6 +1,7 @@
 ---
 title: "あいさつアプリ - The Greeting for Meetup"
 description: "対面交流会でのあいさつをゲームみたいにするアプリ・サービス"
+slug: /
 kind: page
 date: 2024-07-12
 draft: false

@@ -57,9 +57,6 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
   meetup: '/meetup/:slug/'
 disableAliases: true
 outputs:
@@ -70,10 +67,10 @@ imaging:
   quality: 90
   anchor: smart
 timeout: 600000
-taxonomies:
-  tag: tags
-  category: categories
-  author: authors
+# taxonomies:
+#   tag: tags
+#   category: categories
+#   author: authors
 markup:
   _merge: deep
   highlight:
