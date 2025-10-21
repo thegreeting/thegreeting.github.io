@@ -1,10 +1,8 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# AGENTS.md
 
 ## Project Overview
 
-This is a static website for "The Greeting" - a blockchain-based decentralized protocol for secure communication and networking. The site is built with Hugo and the HugoBlox framework, deployed to GitHub Pages at `thegreeting.github.io`.
+This is a static website for "The Greeting" - a blockchain-based decentralized protocol for IRL activity proof. The site is built with Hugo and the HugoBlox framework, deployed to GitHub Pages at `thegreeting.github.io`.
 
 ## Development Commands
 
