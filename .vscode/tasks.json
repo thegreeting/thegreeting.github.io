@@ -29,9 +29,9 @@
                         "message": 5,
                     },
                     "background": {
-                        "activeOnStart": false,
+                        "activeOnStart": true,
                         "beginsPattern": "^Start building .*",
-                        "endsPattern": "^", /*Dont match anything*/
+                        "endsPattern": "^Web Server is available at .*",
                     }
                 },
                 {
@@ -47,7 +47,7 @@
                         "loop": true,
                     },
                     "background": {
-                        "activeOnStart": false,
+                        "activeOnStart": true,
                         "beginsPattern": "Change detected.*",
                         "endsPattern": "Total in .*",
                     }
