@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Greeting Meetup</title>
+  <meta name="description" content="対面イベントのネットワーキングを支援するThe Greeting Meetupアプリのご紹介。">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="/assets/media/icon.png" type="image/png">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <span class="nav-brand">
+        <img src="/assets/media/icon.png" alt="The Greeting Logo" class="nav-logo">
+        The Greeting
+      </span>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/meetup/">Meetup</a>
+        <a href="/meetup/terms/">Terms</a>
+        <a href="/meetup/support/">Support</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>あいさつアプリ – The Greeting for Meetup</h1>
+    <p class="muted">対面交流会でのあいさつをゲームみたいにするアプリ・サービス</p>
+
+    <p>「あいさつ」は、対面イベントでのネットワーキングをサポートするアプリです。プロフィールや興味関心を事前に登録し、現地での名刺交換や会話の相手を見つけやすくします。</p>
+
+    <ul>
+      <li><strong>プロフィール管理:</strong> 参加者のプロフィールや興味関心を登録・閲覧。</li>
+      <li><strong>あいさつの記録:</strong> あいさつの事実と質をゲームのように選択式で記録していくアプリです。</li>
+      <li><strong>イベント内での可視化:</strong> プロフィールやあいさつの記録をもとに、イベント内でのあいさつの流れをタイムラインで確認できます。</li>
+      <li><strong>プライバシーへの配慮:</strong>
+        90日後に統計データだけ残る匿名アカウントと電話番号認証の通常アカウントを選択可能。イベントごとに表示名や絵文字アイコン、自己紹介を変えられるので選択的な匿名性を担保します。</li>
+      <li><strong>運営者向け統計:</strong> 記録されたあいさつの統計情報でイベントの盛り上がりを可視化し、改善に活用できます。</li>
+    </ul>
+
+    <p>「あいさつ」で、対面イベントでの交流をより価値あるものにし、効率的なネットワーキングを実現しましょう！</p>
+
+    <h2>注意事項</h2>
+    <p>現在、本アプリだけで新しくイベントを作成することはできません。</p>
+
+    <div class="notice">
+      <h3>データの削除について</h3>
+      <p>
+        利用者は、自由テキストを含むプロフィール情報とあいさつ情報を登録できますが、このうちあいさつ情報は原則削除できません（著作性がなく統計情報として利用されるため）。ただし、誤って登録した場合はイベントの参加状態を解除することで削除可能です。
+      </p>
+      <p>アカウントを削除するとプロフィール情報は削除されますが、匿名な参加者によるあいさつとしてログは残ります。</p>
+    </div>
+
+    <p><a href="/meetup/terms/">利用規約</a>もご確認ください。</p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> The Greeting. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

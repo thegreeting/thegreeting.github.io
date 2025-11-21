@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder for ecosystem illustration">
+  <defs>
+    <linearGradient id="ecosystemGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#03140d"/>
+      <stop offset="100%" stop-color="#0d3a28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ecosystemGradient)"/>
+  <g stroke="#4ade80" stroke-width="2.5" fill="none" opacity="0.7">
+    <path d="M160 620 C260 540 320 560 420 520 C520 480 560 360 660 320 C760 280 900 320 1040 220"/>
+    <path d="M220 400 C320 320 420 340 520 260 C620 180 760 200 940 160"/>
+    <path d="M200 200 C360 240 480 200 600 240 C720 280 900 260 1020 320"/>
+  </g>
+  <g fill="#bbf7d0" opacity="0.88">
+    <circle cx="220" cy="400" r="18"/>
+    <circle cx="420" cy="520" r="18"/>
+    <circle cx="600" cy="240" r="18"/>
+    <circle cx="780" cy="360" r="18"/>
+    <circle cx="960" cy="280" r="18"/>
+  </g>
+</svg>
