@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Greeting – Open Protocol for Verifiable Real-World Commitment</title>
+  <meta name="description"
+    content="The Greeting builds an open protocol that converts in-person contribution into portable, verifiable trust so any organizer can distribute high-value incentives fairly.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="/assets/media/icon.png" type="image/png">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <span class="nav-brand">
+        <img src="/assets/media/icon.png" alt="The Greeting Logo" class="nav-logo">
+        The Greeting
+      </span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-kicker">Open protocol collective</span>
+        <h1>Turning Verifiable IRL Activities into Portable Trust and Fair Rewards.</h1>
+        <p>
+          The Greeting is an open protocol that validates real-world contributions—like cleaning a park or attending a
+          town hall—without centralized gatekeepers.
+          By using mutual proximity sensing to prove "who was there", we enable the instant, fair distribution of
+          valuable incentives and build a durable trust score based on your actual impact on the community.
+        </p>
+        <div class="hero-actions">
+          <div class="badge">
+            <span>🔗</span>
+            <span>Mutual sensing × Verifiable Credentials × Zero-Knowledge</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Why we build</h2>
+        <p>A greenfield protocol turning embodied participation into portable trust without corporate custody.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Mutual sensing proof</h3>
+          <p>Participants co-sign each other’s presence through rotating Bluetooth Low Energy bursts, multiplying the
+            cost of spoofing beyond QR handouts or GPS fakes. This lowers the verification cost for community actions.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Self-sovereign records</h3>
+          <p>Every verified encounter becomes a W3C Verifiable Credential that lives with the individual. These records
+            serve as the foundation for a new trust score, allowing users to build a portable reputation based on their
+            real-world contributions.</p>
+        </article>
+        <article class="card">
+          <h3>Democratic incentives</h3>
+          <p>Community labs, civic groups, and mobility providers can distribute valuable incentives fairly. By lowering
+            verification costs, we enable a sustainable economic cycle where contributions to the earth and community
+            are properly rewarded.</p>
+        </article>
+        <article class="card">
+          <h3>Privacy-first verification</h3>
+          <p>Zero-knowledge proofs reveal only the necessary claim—such as “five trusted contributions this
+            quarter”—while the underlying encounter graph remains private.</p>
+        </article>
+        <article class="card">
+          <h3>Integrity you can audit</h3>
+          <p>Consensus filtering, timestamped anchors, and public hashing make after-the-fact tampering visible to
+            anyone reviewing the record.</p>
+        </article>
+        <article class="card">
+          <h3>Open collective governance</h3>
+          <p>Protocol components ship as public goods. Developers, organizers, and mobility partners co-evolve the stack
+            through transparent stewardship.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="layout-split">
+        <img src="/assets/media/placeholder-protocol.svg" alt="Abstract green protocol network illustration">
+        <div class="split-content">
+          <h3>How it works</h3>
+          <p>A seamless flow from physical action to digital value.</p>
+          <ul>
+            <li><strong>Mutual Discovery:</strong> Participants' smartphones exchange rotating, privacy-preserving
+              signals via Bluetooth Low Energy to recognize nearby peers.</li>
+            <li><strong>Co-signed Proof:</strong> When a quorum of devices confirms presence at the same time and place,
+              they cryptographically co-sign an "encounter log," creating a Proof of Activity without a central
+              observer.</li>
+            <li><strong>Trust Anchor:</strong> The protocol filters these logs for authenticity and anchors a hash
+              on-chain, ensuring the record is tamper-proof and permanent.</li>
+            <li><strong>Value Distribution:</strong> Verified proofs automatically trigger smart contracts or issuance
+              services to deliver rewards—like coffee coupons or community tokens—directly to the participant's wallet.
+            </li>
+            <li><strong>Portable Reputation:</strong> Over time, these accumulated proofs build a private,
+              self-sovereign "Trust Score" that users can selectively disclose to access new opportunities.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="layout-split">
+        <div class="split-content">
+          <h3>Ecosystem Vision</h3>
+          <p>Infrastructure that lets mobility, civic, and brand ecosystems reward meaningful action for a sustainable
+            earth.</p>
+          <ul>
+            <li>City services, cultural programs, and mobility pilots recognise verified involvement with priority
+              access and tailored rewards.</li>
+            <li>Community organizers run fair, low-cost distributions without collecting personal data they cannot
+              safely store.</li>
+            <li>Enterprises weave IRL contribution into loyalty, CSR, and workforce programs while keeping user
+              ownership intact.</li>
+            <li>Open APIs and SDKs invite developers to build dashboards, analytics, and governance tools atop the core
+              protocol.</li>
+          </ul>
+        </div>
+        <img src="/assets/media/placeholder-ecosystem.svg"
+          alt="Concept art of an interconnected urban mobility hub showing community events, volunteers, and digital credentials flowing between them">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>The team</h2>
+        <p>Two builders carrying the protocol forward as a voluntary collective.</p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card">
+          <h3>NAOE Kenichi</h3>
+        </article>
+        <article class="team-card">
+          <h3>SHIJO Yoshinobu</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> The Greeting. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
